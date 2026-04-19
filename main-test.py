@@ -1,0 +1,13 @@
+from main import Add, Subtract
+
+def test_add():
+    assert Add(2,3) == 5
+    assert Add(5,5) == 10
+
+def test_subtract():
+    assert Subtract(5,2) == 3
+
+if __name__ == "__main__":
+    test_add()
+    test_subtract()
+    print("All tests passed")
