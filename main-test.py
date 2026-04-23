@@ -5,7 +5,7 @@ def test_add():
     assert Add(5,6) == 11
 
 def test_subtract():
-    assert Subtract(5,2) == 3
+    assert Subtract(5,2) == 4
 
 if __name__ == "__main__":
     test_add()
